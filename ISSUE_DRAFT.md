@@ -1,8 +1,10 @@
-# Draft upstream report (NOT FILED)
+# Upstream report
 
-> Status: draft only. This report has not been filed anywhere. Before filing, make this
-> repository public (or attach its contents) and re-run `just matrix` against the newest
-> releases.
+> Status: filed on 2026-10-04.
+> - Backend fix: https://github.com/espressif/llvm-project/issues/140
+> - Rust tracking: https://github.com/esp-rs/rust/issues/284
+>
+> The text below is the filed LLVM report, kept for reference.
 
 ## Routing (in order)
 
@@ -90,8 +92,7 @@ Equivalent reproducers:
 - Rust std on `xtensa-esp32s3-espidf` at opt-level `z` or `s`: any call to
   `std::sync::mpsc::sync_channel` or `channel`.
 
-The full reproducer repo has scripts, a checker and a version matrix: `<link to
-pRizz/xtensa-movsp-realign-repro once public>`.
+The full reproducer repo has scripts, a checker and a version matrix: https://github.com/pRizz/xtensa-movsp-realign-repro.
 
 ## Expected
 
