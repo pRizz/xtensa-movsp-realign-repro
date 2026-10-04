@@ -1,0 +1,7 @@
+rustc 1.88.0-nightly (2ab28d2e7 2025-06-24) (1.88.0.0)
+binary: rustc
+commit-hash: 2ab28d2e728c222edd27f881fd18de24fd88332c
+commit-date: 2025-06-24
+host: aarch64-apple-darwin
+release: 1.88.0-nightly
+LLVM version: 19.1.2

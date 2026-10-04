@@ -1,0 +1,3 @@
+Espressif LLVM version 22.1.4
+  Optimized build.
+  Default target: riscv32-esp-unknown-elf

@@ -1,0 +1,1 @@
+Espressif clang version 22.1.4 (https://github.com/espressif/llvm-project.git esp-22.1.4_20260825)

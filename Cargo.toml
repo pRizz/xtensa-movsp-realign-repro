@@ -1,0 +1,17 @@
+[package]
+name = "movsp_realign_repro"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["rlib"]
+
+[profile.release]
+# Matches the product firmware's std build (no explicit release profile: opt-level 3,
+# no LTO, default codegen units). OPT_LEVEL in the scripts overrides this per run.
+opt-level = 3
+debug = false
+panic = "abort"
